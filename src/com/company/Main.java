@@ -12,7 +12,7 @@ import static java.util.stream.Collectors.toList;
 
 public class Main {
 
-    public static void sum3(List<Integer> arr,int n)
+    public static  int sum3(List<Integer> arr,int n)
     {
         Collections.sort(arr);
         int cnt=0;
@@ -27,7 +27,7 @@ public class Main {
                     lastp--;}
 
         }
-        System.out.print(cnt);
+        return cnt;
 
     }
 
@@ -40,7 +40,7 @@ public class Main {
         List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
                 .map(Integer::parseInt)
                 .collect(toList());
-        sum3(arr, n);
+         System.out.print(sum3(arr, n));
         // Write your code here
 
         bufferedReader.close();
