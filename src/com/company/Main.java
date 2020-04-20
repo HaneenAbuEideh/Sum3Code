@@ -27,6 +27,7 @@ public class Main {
                     lastp--;}
 
         }
+        System.out.print(cnt);
         return cnt;
 
     }
