@@ -11,7 +11,6 @@ import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
 
 public class Main {
-
     public static  int sum3(List<Integer> arr,int n)
     {
         Collections.sort(arr);
@@ -27,7 +26,7 @@ public class Main {
                     lastp--;}
 
         }
-        System.out.print(cnt);
+      System.out.print(cnt);
         return cnt;
 
     }
