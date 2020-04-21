@@ -27,6 +27,7 @@ public class Main {
 
         }
       System.out.print(cnt);
+         System.out.print(cnt);
         return cnt;
 
     }
